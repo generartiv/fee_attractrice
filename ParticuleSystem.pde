@@ -2,8 +2,7 @@ class ParticuleSystem {
   PVector carteVelo[][];
   PVector carteVeloSuiv[][];
   ArrayList<Particule> particules = new ArrayList<Particule>();
-  PVector attracteur = new PVector(width/2, height/2);
-
+ 
   float angleCible = 0;
   PVector cible;
 
