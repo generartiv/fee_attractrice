@@ -2,8 +2,7 @@ class Particule {
   PVector position;
   PVector positionInit;
   PVector velo;
-  PVector attracteur;
-
+ 
   Particule() {
     positionInit = new PVector(random(width-1), random(height-1));
     init();
