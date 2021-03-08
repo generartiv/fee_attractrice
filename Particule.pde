@@ -26,7 +26,7 @@ class Particule {
   }
 
   void display() {
-    //float a = 67 + age * ageMax/172;
+   
     float alpha = 255 - pow(PVector.dist(position, PS.cible), 3) * 255/(pow(width, 3));
     if (alpha<0) {
       alpha  = 0;
